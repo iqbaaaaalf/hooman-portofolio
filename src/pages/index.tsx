@@ -34,7 +34,10 @@ const Home = ({ balance = 7 }:  InferGetStaticPropsType<typeof getBalance>) => {
                     Hooman
                 </h1>
                 <h1 className={styles.subtitle}>
-                    public address : {publicSolanaAddress}
+                    public address :
+                </h1>
+                <h1 className={styles.address}>
+                    {publicSolanaAddress}
                 </h1>
                 <h1 className={styles.email}>
                     Balance {balance} Sol
